@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    background-color: #000000;
+    padding: 20px 0 20px 0;
+}
+
+.cont {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    margin-left: 25px;
+}
+
+nav ul {
+    display: flex;
+    gap: 25px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.icon {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: white;
+}
+
+#sectionOne {
+    width: 100%;
+    height: 500px;
+    background-image: url("https://www.w3schools.com/w3images/la.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#sectionTwo {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 45px;
+}
+
+.text {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.text h1 {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.text span {
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.text p {
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.photo {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.photo img {
+    width: 26%;
+    margin-top: 15px;
+}
+
+#sectionThree {
+    width: 100%;
+    height: 700px;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.containerTwo {
+    width: 80%;
+    padding: 40px 0 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.containerTwo .textTwo {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 0 10px 0px;
+}
+
+.containerTwo .textTwo h2 {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    color: #ddd;
+    margin-bottom: 25px;
+}
+
+.textTwo p {
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: italic;
+    color: #ddd;
+    margin-bottom: 25px;
+}
+
+.ul {
+    width: 80%;
+    padding: 8px 16px;
+    border: 2px solid white;
+    background-color: white;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.li {
+    width: 100%;
+    padding: 8px 16px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: 1px solid #ddd;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(117, 117, 117);
+    position: relative;
+}
+
+.li li {
+    text-align: start;
+    border-bottom: 1px solid #ddd;
+}
+
+.li .span {
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    background-color: #F44336;
+    margin-left: 15px;
+    padding: 4px 2px 4px 2px;
+}
+
+.li .numb {
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    padding: 5px 6px 5px 6px;
+    position: absolute;
+    right: 35px;
+}
+
+.photoTwo {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photoTwo .box {
+    width: 90%;
+    margin-top: 10px;
+}
+
+.photoTwo .box img {
+    width: 90%;
+    margin-top: 25px;
+}
+
+.box .textBox {
+    background-color: #fff;
+    width: 90%;
+    padding: 0.02em 16px;
+}
+
+.box .textBox h4 {
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.box .textBox span {
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 10px;
+}
+
+.box .textBox p {
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 10px;
+}
+
+.box .textBox button {
+    width: 35%;
+    padding: 5px 0 5px 0;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #000000;
+    color: #fff;
+}
+
+.box .textBox button:hover {
+    cursor: pointer;
+    transition: .1s;
+    background-color: #CCCCCC;
+    color: #000000;
+    border: none;
+}
